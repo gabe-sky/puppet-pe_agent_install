@@ -1,0 +1,16 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Install an agent by pulling it from a master.",
+  "parameters": {
+    "server": {
+      "description": "The Puppet master to fetch the installer from.",
+      "type": "Pattern[/^[A-Za-z0-9._-]+$/]"
+    }
+  },
+  "input_method": "environment",
+  "implementations": [
+    { "name": "init.sh",  "requirements": ["shell"] },
+    { "name": "init.ps1", "requirements": ["powershell"] }
+  ]
+}

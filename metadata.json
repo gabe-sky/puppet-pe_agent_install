@@ -1,0 +1,20 @@
+{
+  "name": "gabe-pe_agent_install",
+  "version": "1.0.0",
+  "author": "Gabe Schuyler",
+  "license": "Apache-2.0",
+  "summary": "Puppet Bolt task to invoke the curl- or powershell-based Puppet Enterprise installer on target nodes.",
+  "source": "https://github.com/gabe-sky/puppet-pe_agent_install",
+  "project_page": "https://github.com/gabe-sky/puppet-pe_agent_install",
+  "issues_url": "https://github.com/gabe-sky/puppet-pe_agent_install/issues",
+  "tags": ["enterprise","agent","install"],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"Linux"
+    },
+    {
+      "operatingsystem":"Windows"
+    }
+  ],
+  "dependencies": []
+}
